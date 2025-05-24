@@ -10,17 +10,20 @@ body {
 
 
 
+
+
 .yellow {
-	width: 155px;
-	height: 155px;
-	background-color: yellow;
-	animation-name: box;
+	width: 971px;
+	height: 110px;
+	transform: scale(2.3);
+	top: 739px;
 	position: absolute;
-	animation-duration: 3s;
+	animation-name: box;
+	animation-duration: 1s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	top: 590px;
-}
+}     
 
 
 
@@ -34,7 +37,7 @@ body {
 	
 
 	100% {
-	  	  right: 2500px;
+	  	  right: 971px;
 	}
 
 
