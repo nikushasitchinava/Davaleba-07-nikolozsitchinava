@@ -5,40 +5,48 @@
 
 
 body {
-	background-color: #7686ff;
+	background-color: #8bf0ff;
+}
+
+
+div {
+	width: 55px;
+	height: 55px;
+	position: relative;
 }
 
 
 
-
-
-.yellow {
-	width: 971px;
-	height: 110px;
-	transform: scale(2.3);
-	top: 739px;
+/*
+#map {
+	width: 1941px;
+	height: 295px;
+	transform: scale(1.5);
 	position: absolute;
-	animation-name: box;
-	animation-duration: 1s;
+	top: 739px;
+	left:  401px;
+	top: 590px;
+	animation-name: map;
+	animation-duration: 5s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-	top: 590px;
 }     
 
 
 
 
-@keyframes box {
+
+@keyframes map {
 	
 	0% {
-	  right: 0px;
+	  left: 510px;
 	}
 
 	
 
 	100% {
-	  	  right: 971px;
+	  	  left: 401px;
 	}
 
 
-}
+}*/
