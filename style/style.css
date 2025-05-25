@@ -9,28 +9,18 @@ body {
 }
 
 
-div {
-	width: 55px;
-	height: 55px;
-	position: relative;
-}
 
 
 
-/*
 #map {
-	width: 1941px;
-	height: 295px;
-	transform: scale(1.5);
-	position: absolute;
-	top: 739px;
-	left:  401px;
-	top: 590px;
+	position: fixed;
+	bottom: 0px;
 	animation-name: map;
-	animation-duration: 5s;
+	animation-duration: 14s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-}     
+}
+
 
 
 
@@ -39,14 +29,15 @@ div {
 @keyframes map {
 	
 	0% {
-	  left: 510px;
+	  left: 0px;
 	}
 
 	
 
 	100% {
-	  	  left: 401px;
+	  	  left: -3566px;
 	}
 
 
-}*/
+}
+
